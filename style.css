@@ -75,7 +75,7 @@ body{
 
 .nutrition{font-size: 0.9rem;}
 td{ padding: 10px;  border-bottom: 1px solid hsl(30, 18%, 87%);}
-
+table{ width: 100%; margin: auto;}
 @media (max-width:500px){
 
     .container{
@@ -95,6 +95,7 @@ td{ padding: 10px;  border-bottom: 1px solid hsl(30, 18%, 87%);}
     .ingredient,
     .instructions,
     .nutrition{margin:10px 10px; padding:5px 20px;}
-    .nutrition-table{width: 100%;}
+
+     
 
 }

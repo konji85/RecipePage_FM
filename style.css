@@ -1,0 +1,100 @@
+body{
+    max-width: 1440px;
+    min-width: 375px;
+    
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit';
+    text-align: start;
+    
+}
+.container{
+            width: 570px ; 
+            border-radius: 20px;
+            padding: 30px;
+            background-color: hsl(0, 0%, 100%); 
+            margin: auto;
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center;
+            border: 1px solid green;
+            
+        }
+.recipe-image{
+                width:100%; 
+                border-radius: 10px;
+            }
+            
+.recipe-title{
+                color:hsl(24, 5%, 18%); 
+                font-family: 'Young Serif';
+            font-size: 2.2rem;
+            font-weight: 400;
+            margin: 20px 0;
+           
+    }
+.recipe-overview{ 
+    font-size: 0.9rem; 
+   
+  
+}
+.preparation{
+    margin: 1.5rem 0;
+    padding: 1.2rem 1.5rem;
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+    width:60%;
+    align-self: center;
+    font-weight: 400;
+}
+.preparation-header{color:hsl(332, 51%, 32%); font-weight: 600; font-size: 1.2rem;}
+.preparation ul { padding: 0; margin-left: 10px;}
+.preparation li{margin-left: 0;  padding: 5px 0; }
+
+.ingredient{border-bottom: 1px solid hsl(30, 18%, 87%);}
+.ingredient ul{margin-left:0; padding: 2px;}
+.ingredient li {margin-left: 5px; padding:5px 0;}
+
+.instructions{border-bottom: 1px solid hsl(30, 18%, 87%);}
+
+.instructions ol{color:hsl(14, 45%, 36%); margin: 10px 0; padding: 10px 20px;}
+.instructions li{padding:5px 10px;}
+.subtitle{color:hsl(14, 45%, 36%);
+                    font-family: 'Young Serif';
+                    font-size: 1.5rem;
+                    margin:10px auto;
+                    }
+    
+
+.value{color:hsl(14, 45%, 36%);}
+
+.index{color: hsl(30, 10%, 34%); font-size: 0.86rem; margin:10px 0;}
+
+
+
+.nutrition{font-size: 0.9rem;}
+td{ padding: 10px;  border-bottom: 1px solid hsl(30, 18%, 87%);}
+
+@media (max-width:375px){
+
+    .container{
+                max-width:375px; 
+                margin: 0; 
+                justify-content: center; 
+                padding: 0;  
+                border-radius: 0; 
+                font-size: 1rem; 
+            }
+
+    .recipe-image{border-radius: 0px; margin-top: 0; }
+    .recipe-overview{font-size: 1rem;}
+
+    .recipe-title,
+    .recipe-overview,
+    .ingredient,
+    .instructions,
+    .nutrition{margin:10px 10px; padding:5px 20px;}
+    .nutrition-table{width: 100%;}
+
+}
